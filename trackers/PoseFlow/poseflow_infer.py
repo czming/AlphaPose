@@ -7,6 +7,7 @@
 
 import os
 import numpy as np
+import copy
 
 from .matching import orb_matching
 from .utils import expand_bbox, stack_all_pids, best_matching_hungarian
